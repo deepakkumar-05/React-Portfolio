@@ -52,6 +52,7 @@ export const Hero = () => {
             height="70%" width="70%"
             whileInView={{rotate:-32}}
             animate={{rotate:0}}
+            whileHover={{rotate:0}}
             transition={{ duration: 0.5 }}
               // animate={{ x: 0, opacity: 1 }}
               // transition={{ duration: 1, delay: 1.2 }}
